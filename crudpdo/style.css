@@ -1,0 +1,78 @@
+/*reset nos valores padrões do documento */
+*{
+padding: 0px;
+margin: 0px;
+font-family: arial;
+
+}
+
+/*Formatar inputs e labels, colocando em coluna usando block*/
+label,input{
+	display: block;
+	line-height: 30px;
+	height: 30px;
+	outline: none;
+	font-size: 13pt;
+	width: 100%;
+}
+
+/*Formatando o form */
+
+form{
+	width: 330px;
+	background-color: green; /*rgba(0,0,0,.2)*/
+	padding: 20px;
+	margin: 30px auto;
+}
+
+/*Formatar o botão */
+input[type="submit"]{
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+/*Formatando sessões */
+#esquerda{
+	width: 35%; 
+	background-color: purple;
+	height: 500px;
+	float: left;
+}
+h2{text-align: center;
+}
+#direita{
+	width: 65%;
+	background-color: pink;
+	height: 500px;
+	float: left;
+	
+}
+
+/*Formatando a tabela*/
+table{
+	background-color: blue;
+	width: 90%;
+	margin: 30px auto;
+}
+
+tr{
+	line-height: 30px;
+}
+
+tr#titulo{
+	font-weight: bold;
+	background-color: rgba(0,0,0,.6);
+	color: white;
+}
+
+td{
+	padding: 0px 5px;
+}
+
+a{
+	background-color: white;
+	color: black;
+	padding: 5px;
+	margin: 0px 5px;
+	text-decoration: none;
+}
